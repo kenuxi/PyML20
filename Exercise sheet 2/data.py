@@ -7,6 +7,7 @@ def toy(M,N,d):
 	Y = numpy.random.mtrand.RandomState(789).randint(0,2,[N])   # training labels
 	return U,X,Y
 
+
 # A small handwritten digits dataset
 def digits():
 	from sklearn.datasets import load_digits
